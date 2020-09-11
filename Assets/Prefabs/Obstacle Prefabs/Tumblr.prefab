@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1374612616676554}
+  m_IsPrefabParent: 1
+--- !u!1 &1374612616676554
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4867745543890640}
+  - component: {fileID: 212021821427527474}
+  - component: {fileID: 68858975534889658}
+  m_Layer: 0
+  m_Name: Tumblr
+  m_TagString: Obstacle
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4867745543890640
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1374612616676554}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 66.30753, y: -6.2346134, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &68858975534889658
+EdgeCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1374612616676554}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 0.35599518, y: -0.07096219}
+  - {x: 0.34878922, y: -0.10710478}
+  - {x: 0.38285828, y: -0.12097883}
+  - {x: 0.32580566, y: -0.1132226}
+  - {x: 0.3226776, y: -0.12748146}
+  - {x: 0.34246826, y: -0.16816926}
+  - {x: 0.35969162, y: -0.19593668}
+  - {x: 0.38214493, y: -0.20849395}
+  - {x: 0.36624527, y: -0.22118926}
+  - {x: 0.295681, y: -0.21000385}
+  - {x: 0.25917435, y: -0.17615819}
+  - {x: 0.24590683, y: -0.20580554}
+  - {x: 0.2144432, y: -0.21996117}
+  - {x: 0.19404602, y: -0.26788783}
+  - {x: 0.16091537, y: -0.2881086}
+  - {x: 0.10544205, y: -0.29502702}
+  - {x: 0.056800842, y: -0.29269862}
+  - {x: 0.020923615, y: -0.292063}
+  - {x: -0.016086578, y: -0.2985704}
+  - {x: -0.03485489, y: -0.3274722}
+  - {x: -0.027053833, y: -0.3326738}
+  - {x: -0.045261383, y: -0.3274722}
+  - {x: -0.051567078, y: -0.30937672}
+  - {x: -0.07467651, y: -0.29067612}
+  - {x: -0.0843811, y: -0.30351806}
+  - {x: -0.10134888, y: -0.32035756}
+  - {x: -0.1028862, y: -0.35659885}
+  - {x: -0.13123322, y: -0.37239027}
+  - {x: -0.1324234, y: -0.3539927}
+  - {x: -0.15119171, y: -0.34757662}
+  - {x: -0.1760788, y: -0.3495462}
+  - {x: -0.18432236, y: -0.34413552}
+  - {x: -0.2624054, y: -0.285779}
+  - {x: -0.3597908, y: -0.18993211}
+  - {x: -0.4166603, y: -0.1834886}
+  - {x: -0.4998932, y: -0.15672898}
+  - {x: -0.50461197, y: -0.119582415}
+  - {x: -0.558609, y: -0.13370967}
+  - {x: -0.57138824, y: -0.10389304}
+  - {x: -0.60097885, y: -0.07110238}
+  - {x: -0.6541519, y: -0.04084015}
+  - {x: -0.64879227, y: -0.022905111}
+  - {x: -0.6230812, y: -0.017115593}
+  - {x: -0.5576973, y: -0.043524504}
+  - {x: -0.56933975, y: 0.01901555}
+  - {x: -0.47947693, y: 0.051771402}
+  - {x: -0.3300743, y: 0.18778849}
+  - {x: -0.22664261, y: 0.18853831}
+  - {x: -0.15456772, y: 0.23162103}
+  - {x: -0.08631134, y: 0.24471521}
+  - {x: 0.016582489, y: 0.27692747}
+  - {x: 0.14312744, y: 0.21441507}
+  - {x: 0.24053192, y: 0.12359595}
+  - {x: 0.27889252, y: 0.042666197}
+  - {x: 0.33101273, y: 0.012941599}
+  - {x: 0.32944107, y: -0.02689743}
+  - {x: 0.3454628, y: -0.053363085}
+  - {x: 0.35570908, y: -0.07453656}
+--- !u!212 &212021821427527474
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1374612616676554}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 247183063
+  m_SortingLayer: 6
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: a08b4f5d42adf3946b1c39a0cca433c7, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.66, y: 0.82}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
